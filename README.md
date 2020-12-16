@@ -1,2 +1,6 @@
 # python-api-challenge
 Python API Homework - What's the Weather Like?
+
+The first part of this assignment uses the Python library citipy to pull random latitude and longitude coordinates, then connects those coordinates to Google Maps' API to generate the names and locations of approximately 600 random cities around the world. It then utilizes OpenWeatherData's API to capture real-time weather data from those cities. It then uses the Python library matplotlib to generate scatterplots based on specific parts of the data, which I was then able to analyze for correlation both globally and from hemisphere to hemisphere.
+
+The second part of this assignment utilizes Google Maps' API to generate a heatmap of cities around the world. Using code, I was able to randomly select ten cities from the dataset which fit my ideal weather conditions for a vacation- because this is done through programming, this list can be generated over and over again against any city list generated in the first part of the homework. It then uses Google Maps' search nearby feature to find a hotel near each of these cities. These cities are then plotted onto a world map. A user can click on any of the map markers to view a table showing which country and city the marker represents and the hotel that Google recommended.
